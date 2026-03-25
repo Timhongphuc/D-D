@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Held
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Held.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=pHp\ pName\ pSchaden\ pGeschwindigkeit\ pVerteidigung\ pLevel\ pAim\ pKrit\ pRegeneration
+comment1.target=Held(int,\ java.lang.String,\ int,\ float,\ int,\ int,\ float,\ float,\ int)
+comment10.params=
+comment10.target=int\ getRegeneration()
+comment2.params=
+comment2.target=int\ getHP()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=int\ getSchaden()
+comment5.params=
+comment5.target=float\ getGeschwindigkeit()
+comment6.params=
+comment6.target=int\ getVerteidigung()
+comment7.params=
+comment7.target=int\ getLevel()
+comment8.params=
+comment8.target=float\ getAim()
+comment9.params=
+comment9.target=float\ getKrit()
+numComments=11
