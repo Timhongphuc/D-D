@@ -31,7 +31,7 @@ public class Held {
         regeneration = pRegeneration;
     }
 
-    public int getHP(){
+    public int getHP(){ //Why do we do it this way? (Have to do some research...)
         return hp;
     }
     public String getName(){
@@ -86,5 +86,20 @@ public class Held {
     }
     public void setRegeneration(int pRegeneration){
         regeneration = pRegeneration;
+    }
+    
+    
+    public void levelup(){
+        //CCCCC
+    }
+    public void heal(int heal){
+        heal = hp++; //??? FIX IT!
+        setHP(hp); //FIX IT!
+    }
+    public void attack(){
+        //CCCCC
+    }
+    public void block(){
+        //CCCCC
     }
 }
