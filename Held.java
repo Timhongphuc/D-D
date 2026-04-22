@@ -7,16 +7,16 @@
  */
 public class Held {
 
-    private int hp;
-    private String name;
-    private int schaden;
-    private float geschwindigkeit;
-    private int verteidigung;
-    private int level;
+    protected int hp;
+    protected String name;
+    protected int schaden;
+    protected float geschwindigkeit;
+    protected int verteidigung;
+    protected int level;
     
-    public Held(int pHp, String pName, int pSchaden, 
+    public Held(String pName, int pSchaden, 
     float pGeschwindigkeit, int pVerteidigung, int pLevel){
-        hp = pHp;
+        hp = 100;
         name = pName;
         schaden = pSchaden;
         geschwindigkeit = pGeschwindigkeit;
@@ -68,7 +68,7 @@ public class Held {
         //heal = hp++; //??? FIX IT!
         //setHP(hp); //FIX IT!
     }
-    public void attack(){
-        //CCCCC
+    public void attack(Monster pMonster){
+        pMonster.setHP(pMonster.getHP() -10);
     }
 }
