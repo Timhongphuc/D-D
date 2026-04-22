@@ -13,22 +13,15 @@ public class Held {
     private float geschwindigkeit;
     private int verteidigung;
     private int level;
-    private float aim;
-    private float krit;
-    private int regeneration;
     
     public Held(int pHp, String pName, int pSchaden, 
-    float pGeschwindigkeit, int pVerteidigung, int pLevel,
-    float pAim, float pKrit, int pRegeneration){
+    float pGeschwindigkeit, int pVerteidigung, int pLevel){
         hp = pHp;
         name = pName;
         schaden = pSchaden;
         geschwindigkeit = pGeschwindigkeit;
         verteidigung = pVerteidigung;
         level = pLevel;
-        aim = pAim;
-        krit = pKrit;
-        regeneration = pRegeneration;
     }
 
     public int getHP(){ //Why do we do it this way? (Have to do some research...)
@@ -48,15 +41,6 @@ public class Held {
     }
     public int getLevel(){
         return level;
-    }
-    public float getAim(){
-        return aim;
-    }
-    public float getKrit(){
-        return krit;
-    }
-    public int getRegeneration(){
-        return regeneration;
     }
     
     
@@ -78,28 +62,13 @@ public class Held {
     public void setLevel(int pLevel){
         level = pLevel;
     }
-    public void setAim(float pAim){
-        aim = pAim;
-    }
-    public void setKrit(float pKrit){
-        krit = pKrit;
-    }
-    public void setRegeneration(int pRegeneration){
-        regeneration = pRegeneration;
-    }
     
     
-    public void levelup(){
-        //CCCCC
-    }
     public void heal(int heal){
-        heal = hp++; //??? FIX IT!
-        setHP(hp); //FIX IT!
+        //heal = hp++; //??? FIX IT!
+        //setHP(hp); //FIX IT!
     }
     public void attack(){
-        //CCCCC
-    }
-    public void block(){
         //CCCCC
     }
 }
