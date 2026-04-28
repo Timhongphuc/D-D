@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Krieger
+comment0.text=\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Kriger.\n\ \n\ @author\ (Ihr\ Name)\ \n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
+comment1.params=pName\ pSchaden\ pGeschwindigkeit\ pVerteidigung\ pLevel\ pSchild
+comment1.target=Krieger(java.lang.String,\ int,\ float,\ int,\ int,\ int)
+numComments=2
