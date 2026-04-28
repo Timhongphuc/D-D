@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=Krieger
-comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Kriger.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
-comment1.params=pHp\ pName\ pSchaden\ pGeschwindigkeit\ pVerteidigung\ pLevel\ pSchild
-comment1.target=Krieger(int,\ java.lang.String,\ int,\ float,\ int,\ int,\ int)
-numComments=2
