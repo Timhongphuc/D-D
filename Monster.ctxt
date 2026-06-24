@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Monster
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Held.\r\n\ \r\n\ @author\ (Richard\ Mack)\ \r\n\ @version\ (25.03.2026)\r\n
+comment1.params=pHp\ pSchaden\ pVerteidigung
+comment1.target=Monster(int,\ int,\ int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Monster\r\n
+comment2.params=
+comment2.target=int\ getHp()
+comment3.params=
+comment3.target=int\ getSchaden()
+comment4.params=
+comment4.target=int\ getVerteidigung()
+comment5.params=pHp
+comment5.target=void\ setHp(int)
+comment6.params=pSchaden
+comment6.target=void\ setSchaden(int)
+comment7.params=pVerteidigung
+comment7.target=void\ setVerteidigung(int)
+numComments=8

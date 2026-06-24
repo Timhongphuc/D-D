@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Held
+comment1.params=hp\ name\ schaden
+comment1.target=Held(int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Held\r\n
+comment2.params=
+comment2.target=int\ getHP()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=int\ getSchaden()
+comment5.params=pHp
+comment5.target=void\ setHP(int)
+comment6.params=pName
+comment6.target=void\ setName(java.lang.String)
+comment7.params=pSchaden
+comment7.target=void\ setSchaden(int)
+comment8.params=heilen
+comment8.target=void\ heilen(int)
+numComments=9

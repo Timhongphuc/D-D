@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=KampfRegel
+comment1.params=
+comment1.target=KampfRegel()
+comment2.params=pTungTungTung\ pMonster\ pWuerfel
+comment2.target=void\ kaempfen(TungTungTung,\ Monster,\ Wuerfel)
+numComments=3
